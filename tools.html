@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Tools — AI Practical</title>
+  <meta name="description" content="Curated AI tools with search and filters.">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container">
+    <nav class="nav">
+      <a class="brand" href="index.html"><span class="logo">AI</span><span>AI Practical</span></a>
+      <button class="burger" data-burger>☰ Menu</button>
+      <div class="navlinks" data-navlinks>
+        <a href="index.html">Home</a>
+        <a href="tools.html">Tools</a>
+        <a href="guides.html">Guides</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <a class="btn" href="guides.html">Guides</a>
+    </nav>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+    <div class="card">
+      <h1 class="h1" style="font-size:2.2rem;">AI Tools</h1>
+      <p class="muted">Replace demo buttons with your affiliate links.</p>
+
+      <div class="tools-bar">
+        <input class="input" data-search placeholder="Search a tool (writing, image…)">
+        <select class="select" data-filter>
+          <option value="all">All categories</option>
+          <option value="writing">Writing</option>
+          <option value="image">Image</option>
+          <option value="video">Video</option>
+          <option value="voice">Voice</option>
+          <option value="study">Study</option>
+        </select>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="grid grid-3">
+        <article class="card" data-tool data-name="AI Writing Assistant" data-category="writing">
+          <span class="badge">✍️ Writing</span>
+          <h3>AI Writing Assistant</h3>
+          <p>Rewrite, summarize and generate content faster.</p>
+          <hr class="sep">
+          <a class="btn" href="#" onclick="alert('Add affiliate link');return false;">View tool</a>
+        </article>
+
+        <article class="card" data-tool data-name="AI Image Generator" data-category="image">
+          <span class="badge">🎨 Image</span>
+          <h3>AI Image Generator</h3>
+          <p>Create visuals for social media and thumbnails.</p>
+          <hr class="sep">
+          <a class="btn" href="#" onclick="alert('Add affiliate link');return false;">View tool</a>
+        </article>
+
+        <article class="card" data-tool data-name="AI Voice Generator" data-category="voice">
+          <span class="badge">🎙️ Voice</span>
+          <h3>AI Voice</h3>
+          <p>Text-to-speech for videos and presentations.</p>
+          <hr class="sep">
+          <a class="btn" href="#" onclick="alert('Add affiliate link');return false;">View tool</a>
+        </article>
+      </div>
+    </section>
+  </div>
+</main>
+
+<button class="btn to-top" data-top>↑</button>
+</body>
+</html>

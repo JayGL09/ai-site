@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Practical — Tools & Guides</title>
+  <meta name="description" content="Simple and practical AI tools. Write faster, study smarter, create content, save time.">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container">
+    <nav class="nav">
+      <a class="brand" href="index.html">
+        <span class="logo">AI</span>
+        <span>AI Practical</span>
+      </a>
+
+      <button class="burger" data-burger aria-label="Open menu">☰ Menu</button>
+
+      <div class="navlinks" data-navlinks>
+        <a href="index.html">Home</a>
+        <a href="tools.html">Tools</a>
+        <a href="guides.html">Guides</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <a class="btn" href="tools.html">Best AI Tools</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="hero-card">
+        <div class="hero-inner">
+          <div>
+            <span class="kicker">⚡ Simple AI for everyday use</span>
+            <h1 class="h1">Use AI to save time — without complexity.</h1>
+            <p class="p">
+              Tested AI tools and short guides to write faster, study smarter,
+              create content and automate daily tasks.
+            </p>
+            <div class="hero-actions">
+              <a class="btn" href="guides.html">Start with a guide</a>
+              <a class="btn secondary" href="tools.html">Browse tools</a>
+            </div>
+
+            <hr class="sep">
+
+            <div class="row">
+              <span class="badge">✅ Comparisons</span>
+              <span class="badge">✅ Prompts</span>
+              <span class="badge">✅ Students</span>
+              <span class="badge">✅ Creators</span>
+            </div>
+          </div>
+
+          <aside class="stats">
+            <div class="stat">
+              <b>+30 guides</b>
+              <span>Evergreen AI content</span>
+            </div>
+            <div class="stat">
+              <b>Curated tools</b>
+              <span>Writing, image, video, voice</span>
+            </div>
+            <div class="stat">
+              <b>Beginner friendly</b>
+              <span>No tech skills needed</span>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-3">
+        <article class="card">
+          <span class="badge">✍️ Writing</span>
+          <h3>Write faster</h3>
+          <p>Emails, essays, summaries and posts using simple AI workflows.</p>
+          <hr class="sep">
+          <a class="btn secondary" href="guides.html">Read guides</a>
+        </article>
+
+        <article class="card">
+          <span class="badge">🎨 Visual</span>
+          <h3>Create images</h3>
+          <p>Generate thumbnails, banners and social media visuals easily.</p>
+          <hr class="sep">
+          <a class="btn secondary" href="tools.html">Visual tools</a>
+        </article>
+
+        <article class="card">
+          <span class="badge">🎬 Video</span>
+          <h3>Short-form content</h3>
+          <p>Scripts, hooks and AI voices for TikTok & Shorts.</p>
+          <hr class="sep">
+          <a class="btn secondary" href="guides.html#shorts">Shorts guides</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="card">
+        <h3>📩 Newsletter</h3>
+        <p class="muted">Front-end demo. You can connect a real email service later.</p>
+        <div class="row" style="margin-top:12px;">
+          <input class="input" type="email" placeholder="Your email">
+          <button class="btn" onclick="alert('Demo only. Connect a real email service later.')">
+            Subscribe
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<button class="btn to-top" data-top>↑</button>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row" style="justify-content:space-between;align-items:center;">
+      <div>© <span id="year"></span> AI Practical</div>
+      <div class="row">
+        <a href="tools.html">Tools</a>
+        <a href="guides.html">Guides</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  </div>
+</footer>
+
+</body>
+</html>
